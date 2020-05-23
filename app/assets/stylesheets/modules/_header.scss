@@ -3,7 +3,6 @@
 }
 
 .header {
-  
   border-bottom: solid 1px lightgray;
   height: 64px;
   padding: 10px;
@@ -12,6 +11,7 @@
   .logo {
     margin-left: 8px;
     a {
+      font-weight: bold;
       font-size: 24px;
       text-decoration: none;
       color: #0091ff;
@@ -36,11 +36,4 @@
       text-decoration: none;
     }
   }
-
 }
-
-.side {
-  i {
-  color: black;
-  }
-} 
