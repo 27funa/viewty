@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  background-color: #e9e9e9;
+  .side {
+      padding: 10px;
+      width: 320px;
+      height: calc(100vh - 64px);
+      background-color: #0091ff;
+    .user_section{
+      margin-top: 24px;
+      .user_image {
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        margin: 0 auto;
+        i{
+          color: white;
+          font-size: 56px;
+          text-align: center;
+          line-height: 80px;
+        }
+      }
+      p {
+        color: white;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+    .buttons {
+      text-align: center;
+    }
+  }
+}

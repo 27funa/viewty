@@ -1,2 +1,15 @@
 .side
-  = icon('fas', 'cog')
+  .user_section
+    .user_image
+      = icon('fas', 'user')
+    %p
+      user_name
+  %ul.buttons
+    %li.button
+      %a customers
+      = icon('fas', 'users')
+    %li.button
+      %a my account
+      = icon('fas', 'cog')
+
+  
