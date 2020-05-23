@@ -2,6 +2,42 @@
   box-sizing: border-box;
 }
 
+.header {
+  border-bottom: solid 1px lightgray;
+  height: 64px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    margin-left: 8px;
+    a {
+      font-size: 24px;
+      text-decoration: none;
+      color: #0091ff;
+      line-height: 43px;
+    }
+  }
+  .account {
+      display: flex;
+      padding-top: 6px;
+    a {
+      margin-right: 8px;
+      font-size: 16px;
+      display: block;
+      width: 88px;
+      height: 32px;
+      line-height: 16px;
+      text-align: center;
+      border: solid 1px #0091ff ;
+      border-radius: 16px;
+      padding: 8px;
+      color: #0091ff;
+      text-decoration: none;
+    }
+  }
+
+}
+
 .side {
   i {
   color: black;
